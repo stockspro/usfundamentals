@@ -1,0 +1,33 @@
+{
+  "name": "@stockspro/usfundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:debug": "nodemon ./src/index.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stockspro/usfundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stockspro/usfundamentals/issues"
+  },
+  "homepage": "https://github.com/stockspro/usfundamentals#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.7",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
